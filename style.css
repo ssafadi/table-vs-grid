@@ -1,0 +1,29 @@
+body {
+  font-family: Lato;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 2px;
+  background-color: beige;
+  padding: 2px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 5px 0;
+  font-size: 18px;
+}
+
+table {
+  width: 100%;
+  background-color: beige;
+}
+
+td {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 5px 0;
+  font-size: 18px;
+}
